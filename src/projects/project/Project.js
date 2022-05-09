@@ -1,19 +1,20 @@
 import React from 'react';
-import style from './Projects.module.css';
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Project.module.css';
 
 
 
-export const Projects = () => {
+export const Project = (props) => {
     return (
-        <div className={style.projectsBlock}>
-            <div className={`${styleContainer.container} ${style.container}`}>
-                <h2>Projects</h2>
-                <div className={style.skills}>
-                    <Project title={'JS'} />
-
-                </div>
+        <div className={style.project}>
+            <div className={style.projectImg}>
+                <a href="">
+                    <div className={style.button}>
+                        Check
+                    </div>
+                </a>
             </div>
+            <h3 className={style.projectTitle}>{props.title}</h3>
+            <span className={style.description}>{props.description}</span>
         </div>
     );
 };
