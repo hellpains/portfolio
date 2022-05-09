@@ -1,0 +1,6 @@
+.nav {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    width: 300px;
+} 

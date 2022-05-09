@@ -1,0 +1,13 @@
+.projectsBlock {
+    height: 100vh;
+    background-color: #99d0fb;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
