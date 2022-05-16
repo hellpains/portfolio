@@ -1,6 +1,7 @@
 import React from 'react';
-import style from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
+import style from './Skills.module.css';
+
 import {Skill} from "./skill/Skill";
 
 export const Skills = () => {

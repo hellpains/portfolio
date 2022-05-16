@@ -1,6 +1,6 @@
 .project {
     width: 300px;
-    height: 400px;
+    /*height: 400px;*/
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,6 @@
 }
 
 .projectImg {
-    position: relative;
     width: 300px;
     height: 300px;
     background-color: #d4ffc0;
@@ -23,12 +22,14 @@
 }
 
 .projectTitle {
-    padding-left: 20px;
+    background-color: #ffd4f0;
+    margin-left: 20px;
 }
 
 .description {
+    background-color: #ffd4f0;
     text-align: start;
-    padding: 0 20px 20px 20px;
+   margin: 0 20px 20px 20px;
 }
 
 .button {
@@ -37,13 +38,13 @@
     background-color: lightgrey;
 }
 
-.button  {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 }
- a {
+
+a {
     text-decoration: none;
     color: black;
     font-weight: 700;

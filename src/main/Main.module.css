@@ -1,8 +1,11 @@
 .mainBlock {
     height: 100vh;
     background-color: #ffd4f0;
-}
 
+}
+.container {
+
+}
 
 .text {
     width: 300px;
