@@ -1,5 +1,6 @@
 .header {
     height: 80px;
+    border: 1px solid;
     background-color: #99d0fb;
     display: flex;
     align-items: center;
@@ -10,4 +11,5 @@
 .container{
     align-items: center;
     justify-content: flex-end;
+    border: 1px solid;
 }

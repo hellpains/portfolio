@@ -1,64 +1,30 @@
 .contactsBlock {
-    height: 100vh;
-    background-color: #ffd4f0;
+    background-color: #ffd6d5;
 }
 
-.contactsTitle{
-    background-color: #99d0fb;
-}
-
-.container {
+.contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
 
-
-.formBlock {
-    width: 280px;
+.title {
+    background-color: #eeeef5;
 }
 
-.input {
-    font-size: 18px;
-    line-height: 22px;
-    padding: 13px 13px 13px 13px;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0, 0, 0, 0);
+.contactsForm {
+    width: 50%;
+    background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.input:focus {
-    background: #fff;
-    border: 3px solid #3498db;
-    color: #3498db;
-    outline: none;
-    padding: 13px 13px 13px 13px;
+.contactsForm input, .contactsForm textarea{
+    width:100%;
+}
+.submitBtn{
+    padding: 10px 20px;
+    background-color: #eeeef5;
 }
 
 
-button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    cursor: pointer;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize: vertical;
-}
-
-
-
-.send button {
-    text-decoration: none;
-    width: 120px;
-    height: 35px;
-
-}
-.send{
-    margin-top: 20px;
-
-}

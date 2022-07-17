@@ -7,19 +7,14 @@ import style from './Сontacts.module.css'
 export const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
-            <div className={`${styleContainer.container} ${style.container}`}>
-                <h2 className={style.contactsTitle}>Contacts</h2>
-
-                <form className={style.formBlock}>
-                    <input type="text" className={style.input}/>
-                    <input type="text" className={style.input}/>
-                    <textarea name="text" className={style.input}></textarea>
+            <div className={`${style.contactsContainer} ${styleContainer.container}`}>
+                <h2 className={style.title}>Contacts</h2>
+                <form className={style.contactsForm}>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <textarea/>
+                    <button type={"submit"} className={style.submitBtn}>Отправить</button>
                 </form>
-
-                <div className={style.send}>
-                    <button>SEND</button>
-                </div>
-
             </div>
         </div>
     );

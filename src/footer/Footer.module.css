@@ -1,26 +1,26 @@
-.footerBlock{
-    min-height: 30vh;
-    background-color: #99d0fb;
-
+.footerBlock {
+    background-color: #d4ffd3;
 }
 
-.footerTitle{
-    background-color: #ffd4f0;
-}
-
-.container {
+.footerContainer {
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-.blocks{
-    width: 280px;
+.title {
+    background-color: #eeeef5;
+}
+
+.socialIcons {
+    width: 250px;
+    background-color: #d6d6d6;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-.block{
+
+.socialIcon {
     width: 50px;
     height: 50px;
-    background-color: #ffd4f0;
+    background-color: #fff;
 }

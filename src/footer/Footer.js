@@ -7,16 +7,15 @@ import style from './Footer.module.css'
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.container}` }>
-
-                    <h2 className={style.footerTitle}>Rustam Sadulaev</h2>
-                    <div className={style.blocks}>
-                        <div className={style.block}></div>
-                        <div className={style.block}></div>
-                        <div className={style.block}></div>
-                        <div className={style.block}></div>
+            <div className={`${styleContainer.container} ${style.footerContainer}` }>
+                    <h2 className={style.title}>Rustam Sadulaev</h2>
+                    <div className={style.socialIcons}>
+                        <div className={style.socialIcon}></div>
+                        <div className={style.socialIcon}></div>
+                        <div className={style.socialIcon}></div>
+                        <div className={style.socialIcon}></div>
                     </div>
-                    <h3 className={style.footerTitle}>Все права защищены</h3>
+                    <span className={style.copyrighth}>Все права защищены</span>
 
             </div>
         </div>
