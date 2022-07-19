@@ -1,0 +1,29 @@
+@import "../common/styles/sass/variabless.scss";
+
+.hireBlock {
+  background-color: $bgSecondColor;
+  padding: 50px 0;
+
+  .hireContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    color:$textColor;
+    font-family: $titleFontFamily;
+  }
+
+  .hireBtn {
+    font-family: 'Poppins', sans-serif;
+    background-color: $primaryColor;
+    padding: 10px 20px;
+    color: $textColor;
+    text-decoration: none;
+    z-index: 1;
+  }
+}
+
+
+
+

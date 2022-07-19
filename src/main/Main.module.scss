@@ -1,0 +1,39 @@
+@import "../common/styles/sass/variabless";
+@import "../common/styles/sass/mixins";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+
+  .container {
+
+    .text {
+      color: $textColor;
+
+      span {
+        @include text($textFontFamily, 16px, 1);
+      }
+
+      h1 {
+        @include text($titleFontFamily, 40px, 1);
+      }
+
+      p {
+        @include text($textFontFamily, 27px, 1);
+      }
+    }
+
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-color: #f7f7f7;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+
+    }
+
+  }
+}
+
+

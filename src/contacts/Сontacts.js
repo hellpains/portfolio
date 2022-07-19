@@ -1,14 +1,15 @@
 import React from 'react';
 import styleContainer from '../common/styles/Container.module.css'
 
-import style from './Сontacts.module.css'
+import style from './Сontacts.module.scss'
+import {Title} from "../common/components/title/Title";
 
 
 export const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${style.contactsContainer} ${styleContainer.container}`}>
-                <h2 className={style.title}>Contacts</h2>
+                <Title title={'Contact'}/>
                 <form className={style.contactsForm}>
                     <input type="text"/>
                     <input type="text"/>

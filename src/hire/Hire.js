@@ -1,6 +1,6 @@
 import React from 'react';
 import styleContainer from '../common/styles/Container.module.css'
-import style from './Hire.module.css';
+import style from './Hire.module.scss';
 
 
 export const Hire = () => {
