@@ -1,15 +1,14 @@
 @import "../common/styles/sass/variabless";
 
 .header {
-    background-color: $bgSecondColor;
-    height: 80px;
-    display: flex;
+  background-color: $bgSecondColor;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .container {
     align-items: center;
     justify-content: flex-end;
-}
-
-
-.container{
-    align-items: center;
-    justify-content: flex-end;
+  }
 }
