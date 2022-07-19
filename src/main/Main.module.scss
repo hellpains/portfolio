@@ -2,10 +2,12 @@
 @import "../common/styles/sass/mixins";
 
 .mainBlock {
-  height: 100vh;
   background-color: $bgColor;
 
   .container {
+    padding: 200px 0;
+
+
 
     .text {
       color: $textColor;
@@ -33,7 +35,13 @@
 
     }
 
+
+
+    @media screen and (max-width: 920px) {
+      justify-content: start;
+      flex-direction: column;
+    }
   }
 }
 
-
+//913
